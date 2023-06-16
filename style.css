@@ -1,0 +1,14 @@
+.sidebar {
+  float: left;
+  width: 20%;
+}
+
+.main-content {
+  float: left;
+  width: 30%;
+}
+
+.product-info {
+  float: left;
+  width: 30%;
+}

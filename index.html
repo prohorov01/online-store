@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Голосування</title>
+  </head>
+
+  <body>
+    <div class="sidebar">
+      <div class="categories">
+        <h2>Категории</h2>
+        <ul>
+          <li data-category="sports">Спорт</li>
+          <li data-category="clothing">Одежда</li>
+          <li data-category="equipment">Оборудование</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div class="products" style="display: none">
+        <h2>Товары</h2>
+        <ul></ul>
+      </div>
+    </div>
+
+    <div class="product-info" style="display: none">
+      <h2>Информация о товаре</h2>
+      <p id="product-name"></p>
+      <button id="buy-button">Купить</button>
+      <p id="purchase-message"></p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
